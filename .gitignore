@@ -1,0 +1,14 @@
+media/
+# Python
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Django
+db.sqlite3
+media/
+
+# Images folder
+projects/
