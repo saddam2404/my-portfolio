@@ -15,12 +15,27 @@
 
     <nav>
         <h2>Mohammed Saddam</h2>
-
+        
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
         </ul>
+        <section id="contact">
+        <h2>Contact</h2>
+
+    <p>Email: saddam24tech@gmail.com</p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/saddam2404/">GitHub</a>
+    </p>
+
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/mohammed-saddam-39220531b/">LinkedIn</a>
+    </p>
+</section>
     </nav>
 
     <section class="hero">
@@ -83,7 +98,6 @@
                         </a>
                     {% endif %}
                     {% if project.image %}
-                        <p>{{ project.image.url }}</p>
                             <img src="{{ project.image.url }}" alt="{{ project.title }}">
                     {% endif %}
 
@@ -96,6 +110,9 @@
 
         {% endif %}
     </section>
+    <a href="{% static 'portfolio/Saddam_CV.pdf' %}" download>
+    Download Resume
+</a>
 
     <footer>
         <p>© 2026 Mohammed Saddam</p>
